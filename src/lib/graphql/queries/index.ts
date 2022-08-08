@@ -1,4 +1,4 @@
 import { authorsQuery } from './author.query';
-import { projectsQuery } from './project.query';
+import { projectQuery, projectsQuery } from './project.query';
 
-export { authorsQuery, projectsQuery };
+export { authorsQuery, projectQuery, projectsQuery };

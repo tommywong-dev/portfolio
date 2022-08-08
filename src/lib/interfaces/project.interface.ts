@@ -1,5 +1,6 @@
 interface Project {
 	name: string;
+	tags: string;
 	slug: string;
 	description: string;
 	demo: string;
