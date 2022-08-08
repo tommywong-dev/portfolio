@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Project } from '../interfaces';
+	import type { Project } from '$lib/interfaces';
 	export let project: Project;
 	let { image, name, slug, description } = project;
 </script>

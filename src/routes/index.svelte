@@ -1,5 +1,5 @@
 <script context="module">
-	import ProjectCard from '../lib/components/ProjectCard.component.svelte';
+	import ProjectCard from '$lib/components/ProjectCard.component.svelte';
 	import { gql, GraphQLClient } from 'graphql-request';
 
 	export const load = async () => {
