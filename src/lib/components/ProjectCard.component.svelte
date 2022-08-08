@@ -6,7 +6,7 @@
 
 <div class="relative group card shadow-2xl col-span-2">
 	<img src={image[0].url} alt={name} class="object-cover h-full" />
-	<a href={`/project/${slug}`}
+	<a href={`/projects/${slug}`}
 		><div
 			class="absolute bottom-0 left-0 right-0 lg:opacity-0 group-hover:opacity-100 bg-primary duration-300 text-primary-content"
 		>
