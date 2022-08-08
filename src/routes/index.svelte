@@ -1,4 +1,5 @@
 <script context="module">
+	import ProjectCard from '../lib/components/ProjectCard.component.svelte';
 	import { gql, GraphQLClient } from 'graphql-request';
 
 	export const load = async () => {
@@ -43,4 +44,9 @@
 	export let projects: Project[];
 </script>
 
-<pre>{JSON.stringify(projects, null, 2)}</pre>
+<html lang="ts">
+	<h1>Tommy Wong</h1>
+	{#each projects as project}
+		<ProjectCard {project} />
+	{/each}
+</html>
