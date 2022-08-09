@@ -1,7 +1,7 @@
 <script>
-	import FacebookIcon from './FacebookIcon.svelte';
-	import TwitterIcon from './TwitterIcon.svelte';
-	import YoutubeIcon from './YoutubeIcon.svelte';
+	import FacebookIcon from './FacebookIcon.component.svelte';
+	import TwitterIcon from './TwitterIcon.component.svelte';
+	import YoutubeIcon from './YoutubeIcon.component.svelte';
 </script>
 
 <footer class="p-10 footer bg-primary text-primary-content footer-center">
