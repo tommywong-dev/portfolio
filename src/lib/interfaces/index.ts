@@ -1,4 +1,5 @@
 import type Project from './project.interface';
 import type Author from './author.interface';
+import type Post from './post.interface';
 
-export type { Project, Author };
+export type { Author, Post, Project };
