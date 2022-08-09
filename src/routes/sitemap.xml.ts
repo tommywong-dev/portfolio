@@ -1,4 +1,5 @@
 import { client } from '$lib/graphql/client';
+import type { Post } from '$lib/interfaces';
 import { gql } from 'graphql-request';
 
 const website = 'https://www.tommywong.dev';
@@ -26,8 +27,7 @@ export const GET = async () => {
 	};
 };
 
-// @ts-ignore
-const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
+const sitemap = (posts: Post[], pages: string[]) => `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset
   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
